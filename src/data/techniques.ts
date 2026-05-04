@@ -14,7 +14,7 @@ export const techniquesData = [
 		"type": "Cursed Technique",
 	},
 	{
-		"id": 2,
+		"id": 3,
 		"character_id": 1,
 		"name": "Hollow Purple",
 		"description": "The combination of Red and Blue, creating a singularity that erases everything in its path",

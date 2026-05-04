@@ -38,8 +38,8 @@ function App() {
 				<p>Loading Cursed Energy...</p>
 			) : (
 				<div className="grid gap-4">
-					<p className="text-green-500">{characters.data.length} Characters</p>
-					<p className="text-blue-500">{techniques.length} Local Technique</p>
+					<p className="text-green-500">{characters?.data.length ?? 0} Characters</p>
+					<p className="text-blue-500">{techniques.length} Local Techniques</p>
 				</div>
 			)}
 		</div>
