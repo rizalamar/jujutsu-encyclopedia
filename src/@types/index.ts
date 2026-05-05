@@ -41,3 +41,21 @@ export interface JikanCharacter {
 export interface JikanResponse {
 	data: JikanCharacter[];
 }
+
+export interface JikanCharacterDetail {
+	mal_id: number;
+	url: string;
+	images: {
+		webp: {
+			image_url: string;
+			small_image_url: string;
+		};
+	};
+	name: string;
+	name_kanji: string;
+	about: string;
+}
+
+export interface JikanDetailResponse {
+	data: JikanCharacterDetail;
+}
